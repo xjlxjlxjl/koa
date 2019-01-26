@@ -1,0 +1,14 @@
+{% extends "base.html" %} {% block main %}
+<form method="post">
+    <label for="name">账户：
+        <input type="text" name="name" id="">
+    </label>
+    <label for="pass">密码：
+        <input type="text" name="password" id="">
+    </label>
+    <label for="pass">确认密码：
+        <input type="text" name="repass" id="">
+    </label>
+    <input type="submit" value="提交">
+</form>
+{% endblock %}
